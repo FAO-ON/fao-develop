@@ -87,12 +87,22 @@ npm run test:php
 npm run test:e2e
 ```
 
+
 You can pass extra parameters into the PHP tests by adding `--` and then the [command-line options](https://docs.phpunit.de/en/10.4/textui.html#command-line-options):
 
 ```
 npm run test:php -- --filter <test name>
 npm run test:php -- --group <group name or ticket number>
 ```
+
+#### FAO test suite
+
+To run the FAO test suite, you can group by fao
+
+'''
+npm run test:php -- --group fao
+'''
+
 
 #### Generating a code coverage report
 PHP code coverage reports are [generated daily](https://github.com/WordPress/wordpress-develop/actions/workflows/test-coverage.yml) and [submitted to Codecov.io](https://app.codecov.io/gh/WordPress/wordpress-develop).
