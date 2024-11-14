@@ -99,9 +99,9 @@ npm run test:php -- --group <group name or ticket number>
 
 To run the FAO test suite, you can group by fao
 
-'''
+```
 npm run test:php -- --group fao
-'''
+```
 
 
 #### Generating a code coverage report
